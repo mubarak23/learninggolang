@@ -20,6 +20,16 @@ func canSendMessage(mToSend messageToSend) bool {
 	return true
 }
 
+// Anonymous struct
+// my2Car := struct {
+//   Make string
+//   Model string
+// } {
+//   Make: "tesla",
+//   Model: "model 3",
+// }
+
+
 // don't touch below this line
 
 func test(mToSend messageToSend) {
