@@ -29,6 +29,9 @@
 //  mySlice := []string{"I", "love", "go"}
 //  fmt.Println(cap(mySlice)) // 3
 
+// len: tell us how many things are in that slice
+// cap, reports the maximum length the slice may assume.
+
 package main
 
 import "fmt"
@@ -46,6 +49,7 @@ func getMessageCosts(messages []string) []float64 {
 }
 
 // don't edit below this line
+
 
 func test(messages []string) {
 	costs := getMessageCosts(messages)
